@@ -186,6 +186,7 @@ margin: 2rem;
 .card-grow{
 grid-template-columns: 1fr 1fr;
 /* gap: 1.5rem; */
+width: 35rem;
 place-items: center;
 }
 }
