@@ -178,6 +178,7 @@ margin: 2rem;
 }
 .card-grow{
  display: grid;
+ grid-template-columns: 1fr;
  gap: 2rem;
 }
 @media (min-width:800px) {
@@ -190,6 +191,7 @@ place-items: center;
  
 .card-flow{
  display: grid;
+ grid-template-columns: 1fr;
 }
 .card-text{
   opacity: .4;
@@ -204,6 +206,7 @@ place-items: center;
 }
 .card-users{
  display: grid;
+ grid-template-columns: 1fr;
 }
 @media (min-width:750px) {
 .card-users{
@@ -241,6 +244,7 @@ place-items: center;
  background-color: var(--Very-Dark-Cyan);
  padding: 9rem 2rem;
  display: grid;
+ grid-template-columns: 1fr;
  place-content: center;
  gap: 2rem;
 }
