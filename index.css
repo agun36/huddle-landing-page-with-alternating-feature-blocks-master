@@ -221,7 +221,7 @@ place-items: center;
  }
 }
 .community-text h3{
- font-size: 1.2767rem; 
+ /* font-size: 1.2767rem;  */
  font-family: 'Open Sans', sans-serif;
 
  font-weight: 600;
