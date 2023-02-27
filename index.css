@@ -282,8 +282,8 @@ left: -2rem;
 }
 @media (min-width:700px) {
  .footer-section__item{
-  grid-template-columns: 300px 250px;
-  padding: 2rem;
+  grid-template-columns: 200px 250px;
+  /* padding: 2rem; */
  }
 }
 @media (min-width:850px) {
