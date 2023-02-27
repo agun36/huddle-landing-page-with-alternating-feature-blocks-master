@@ -160,11 +160,11 @@ margin: 2rem;
 }
 
 .card{
- padding: 3rem 6rem;
  background-color: white;
- border-radius: 6px;
+ border-radius: 15px;
  box-shadow: 2px 0 15px 0 hsla(192, 100%, 9%, 0.1);
- max-width: 20rem;
+ padding: 60px;
+margin: 40px 0;
 }
 @media (min-width:750px) {
  .card{
@@ -214,7 +214,7 @@ place-items: center;
 .card-community{
  position: relative;
  top: 22rem;
- width: 100%;
+ 
 }
 @media (min-width:750px) {
  .card-community{
