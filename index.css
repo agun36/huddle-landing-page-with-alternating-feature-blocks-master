@@ -185,11 +185,17 @@ margin: 2rem;
 @media (min-width:650px) {
 .card-grow{
 grid-template-columns: 1fr 1fr;
-/* gap: 1.5rem; */
 min-width: 35rem;
 place-items: center;
 width: 100%;
+  grid-auto-flow: dense;
 }
+.grow-img{
+  grid-column: 2;
+ }
+ .grow-text{
+  grid-column: 1;
+ }
 }
  
 .card-flow{
@@ -213,6 +219,7 @@ width: 100%;
  display: grid;
  grid-template-columns: 1fr;
 }
+
 @media (min-width:650px) {
 .card-users{
 grid-template-columns: 1fr 1fr;
@@ -220,6 +227,13 @@ grid-template-columns: 1fr 1fr;
 min-width: 35rem;
 place-items: center;
 width: 100%;
+grid-auto-flow: dense;
+}
+.user-img{
+ grid-column: 2;
+}
+.users-text{
+ grid-column: 1;
 }
 }
 .card-community{
