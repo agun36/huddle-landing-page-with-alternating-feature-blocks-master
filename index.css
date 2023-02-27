@@ -188,6 +188,7 @@ grid-template-columns: 1fr 1fr;
 /* gap: 1.5rem; */
 min-width: 35rem;
 place-items: center;
+width: 100%;
 }
 }
  
@@ -199,22 +200,26 @@ place-items: center;
   opacity: .4;
  font-size: 1.25rem;
 }
-@media (orientation: landscape) {
+@media (min-width:650px) {
 .card-flow{
 grid-template-columns: 1fr 1fr;
-gap: 1.5rem;
+/* gap: 1.5rem; */
+min-width: 35rem;
 place-items: center;
+width: 100%;
 }
 }
 .card-users{
  display: grid;
  grid-template-columns: 1fr;
 }
-@media (orientation: landscape) {
+@media (min-width:650px) {
 .card-users{
 grid-template-columns: 1fr 1fr;
-gap: 1.5rem;
+/* gap: 1.5rem; */
+min-width: 35rem;
 place-items: center;
+width: 100%;
 }
 }
 .card-community{
@@ -222,7 +227,7 @@ place-items: center;
  top: 22rem;
  
 }
-@media (orientation: landscape) {
+@media (min-width:650px) {
  .card-community{
   margin: auto;
  }
