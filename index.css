@@ -81,6 +81,7 @@ p, h1, h2, h3, h4, h5, h6 {
  text-align: center;
 }
 header{
+   background-color: var(--Very-Pale-Cyan);
  background-image: url("images/bg-hero-mobile.svg");
  background-repeat: no-repeat;
  padding: 2rem 3rem ;
@@ -93,8 +94,9 @@ header{
  header{
   background-image: url("images/bg-hero-desktop.svg");
   background-color: var(--Very-Pale-Cyan);
-  background-position: top;
+  background-position:center top;
    background-size: auto;
+
  }
 }
 .nav{
