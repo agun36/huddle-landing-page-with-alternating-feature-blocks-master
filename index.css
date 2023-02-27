@@ -182,7 +182,7 @@ margin: 2rem;
  grid-template-columns: 1fr;
  gap: 2rem;
 }
-@media (orientation: landscape) {
+@media (min-width:650px) {
 .card-grow{
 grid-template-columns: 1fr 1fr;
 /* gap: 1.5rem; */
