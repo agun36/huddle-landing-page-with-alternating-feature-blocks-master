@@ -283,11 +283,7 @@ left: -2rem;
 }
 
 
-@media (min-width:850px) {
- .footer-section__item{
-  grid-template-columns: 300px 250px ;
- }
-}
+
 @media (min-width:950px) {
  .footer-section__item{
   grid-template-columns: 300px 250px ;
