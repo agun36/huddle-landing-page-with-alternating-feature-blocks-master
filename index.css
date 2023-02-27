@@ -169,7 +169,7 @@ margin: 2rem;
 }
 @media (orientation: landscape) {
  .card{
-  min-width: 30rem;
+  width: 30rem;
  }
 }
 .card h3 {
