@@ -169,16 +169,17 @@ place-content: center;
 place-items: center;
 gap: 2.5rem;
 margin: 2rem;
-transition: all ease-in .5;
+transition: all ease-in-out .3s;
 }
 
 .card{
- padding: 30px;
- background-color: white;
- border-radius: 15px;
- box-shadow: 2px 0 15px 0 hsla(192, 100%, 9%, 0.1);
- max-width: 30rem;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 0 15px 0 hsla(192, 100%, 9%, 0.1);
+  max-width: 30rem;
 }
+
 .card-content{
   display: flex;
   align-items: center;
