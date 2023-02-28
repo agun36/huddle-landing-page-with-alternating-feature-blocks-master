@@ -318,7 +318,7 @@ width: 100%;
 }
 .footer-icons li ,
 .footer-icons li :active {
-  border: 1px solid var(--Very-Pale-Cyan);
+  border: 1.5px solid var(--Very-Pale-Cyan);
   border-radius: 50%;
   cursor: pointer;
   height: 45px;
