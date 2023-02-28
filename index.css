@@ -191,6 +191,8 @@ margin: 2rem;
 .card h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  font-size: 1.234rem;
+ color: var(--Very-Dark-Cyan);
 }
 
 
@@ -204,7 +206,7 @@ margin: 2rem;
 .community-text h3{
  font-size: 1.2767rem; 
  font-family: 'Open Sans', sans-serif;
-
+color: var(--Very-Dark-Cyan);
  font-weight: 600;
 }
 .button-community{
