@@ -336,6 +336,7 @@ width: 100%;
 .fa-facebook {
   border-radius: 50%;
   padding: .4rem .35rem;
+   font-size: 1.5em;
 }
 
 .fa-twitter {
