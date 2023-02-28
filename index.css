@@ -82,6 +82,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .text-center{
  text-align: center;
 }
+.opacity-8{
+  opacity: .5;
+}
 header{
    background-color: var(--Very-Pale-Cyan);
  background-image: url("images/bg-hero-mobile.svg");
@@ -182,6 +185,9 @@ margin: 2rem;
  }
  .card-content{
   flex-direction: row;
+ }
+ .card-content p{
+  opacity: .8;
  }
  .card-grow-img{
   order: 2;
