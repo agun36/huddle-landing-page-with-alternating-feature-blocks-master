@@ -349,8 +349,8 @@ width: 100%;
  display: flex;
  gap: 1.5rem;
 }
-.footer-icons li a,
-.footer-icons li a:active {
+.footer-icons li ,
+.footer-icons li :active {
   border: 1px solid var(--Very-Pale-Cyan);
   border-radius: 50%;
   cursor: pointer;
@@ -362,14 +362,26 @@ width: 100%;
  padding: .5rem;
  }
 }
-.fa-facebook-f {
+.fa{
+  color: var(--Very-Pale-Cyan);
+}
+.fa-facebook {
+  border-radius: 50%;
+  font-size: 2rem;
   padding: .4rem .35rem;
+  font-size: 1.5em;
 }
 
 .fa-twitter {
-  padding: .4rem .2rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: .4rem .35rem;
+  font-size: 1.5em;
 }
 
 .fa-instagram {
-  padding: .4rem .25rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: .4rem .35rem;
+  font-size: 1.5em;
 }
