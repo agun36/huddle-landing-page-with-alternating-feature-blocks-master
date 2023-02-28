@@ -202,7 +202,7 @@ margin: 2rem;
   order: 2;
  }
 }
-.card h3 {
+.card h3,h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1.234rem;
