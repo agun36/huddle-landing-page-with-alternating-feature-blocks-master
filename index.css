@@ -169,7 +169,6 @@ place-content: center;
 place-items: center;
 gap: 2.5rem;
 margin: 2rem;
-transition: all ease-in-out .3s;
 }
 
 .card{
